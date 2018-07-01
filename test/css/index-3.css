@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+input {
+    border: 0;
+}
+.form_layout {
+    width: 100%;
+    max-width: 640px;
+    min-width: 320px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #eee;
+}
+.top {
+    width: 100%;
+    max-width: 640px;
+    height: 50px;
+    background-color: #fff;
+    line-height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.top .goback {
+    font-size: 24px;
+    margin: 0 8px;
+    float: left;
+}
+
+.top h3 {
+    line-height: 50px;
+    font-weight: normal;
+    color: #000;
+    font-size: 18px;
+    margin: 0 auto;
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.users {
+    margin-top: 50px;
+    width: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 5px;
+}
+.users li {
+    width: 100%;
+    max-width: 640px;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.security {
+    color: #7d7d7d;
+    cursor: pointer;
+}
+.determine {
+    width: 100%;
+    max-width: 640px;
+    height: 60px;
+    text-align: center;
+    background-color: #ffcf49;
+    margin-top: 12px;
+    position: absolute;
+    top: 250px;
+}
+.determine a {
+    display: block;
+    width: 100%;
+    max-width: 640px;
+    font-size: 26px;
+    color: #fff;
+    line-height: 60px;
+}

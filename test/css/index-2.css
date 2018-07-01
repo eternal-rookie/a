@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.layout{
+    max-width: 640px;
+    min-width: 320px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #eee;
+}
+.top {
+    max-width: 640px;
+    width: 100%;
+    height: 50px;
+    background-color: #ff0000;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+.top > h3 {
+    line-height: 50px;
+    font-weight: normal;
+    color: #fff;
+    font-size: 26px;
+    margin: 0 auto;
+}
+.goback {
+    font-size: 20px;
+    line-height: 50px;
+    color: #fff;
+    float: left;
+}
+.banner {
+    width: 100%;
+    height: 260px;
+    background: url('../images/bg_01.png');
+    position: relative;
+    top: 50px;
+}
+.bannerBox .b_logo {
+   width: 72px;
+   margin-top: 30px;
+   margin-left: 30px;
+}
+.tpip {
+    display: block;
+    color: #fff;
+    margin-left: 115px;
+    margin-top: -70px;
+    font-size: 16px;
+}
+.icon_2 {
+    font-size: 30px;
+}
+.b_img {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 8px;
+
+}
+.b_more {
+    margin-left: 115px;
+    margin-top: 25px;
+}
+.b_ad {
+    width: 100%;
+    height: 60px;
+    max-width: 640px;
+    background-color: rgba(112, 165, 170, .3);
+    text-align: center;
+    margin-top: 85px;
+    
+}
+.ad_box {
+    font-size: 18px;
+    margin-top: 8px;
+    width: 33.33%;
+    float: left;
+    display: block;
+    color: #fff;
+    font-weight: normal;
+
+}
+.ad_1 {
+   border-right: 1px solid #eee;
+}
+.ad_2 {
+    border-left: 1px solid #eee;
+}
+.icon_1 {
+    font-size: 30px;
+}
+.main {
+    width: 100%;
+    max-width: 640px;
+    text-align: center;
+    background-color: #fff;
+    margin-top: 50px;
+}
+.main li {
+    width: 33.33%;
+    height: 80px;
+    float: left;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.main li img {
+    width: 40px;
+}
+.main li:nth-child(3n) {
+    border-right: 0;
+}
+.main li a {
+    display: block;
+    margin-top: 10px;
+}
+.main_ad {
+    width: 100%;
+    height: 150px;
+    margin-top: 12px;
+}
+.main_ad img {
+    width: 100%;
+}
+.main_ad a {
+    display: block;
+}
+.footer {
+    max-width: 640px;
+    width: 100%;
+    height: 60px;
+    margin-top: 12px;
+    position: fixed;
+    background-color: #fff;
+    bottom: 0;
+    border-top: 1px solid #eee;
+
+}
+.f_box {
+    width: 25%;
+    display: block;
+    float: left;
+    text-align: center;
+    margin-top: 8px;
+}
+.f_box i {
+    font-size: 28px;
+}
+.f_icon2 {
+    color: #ff2121;
+}
